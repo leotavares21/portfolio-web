@@ -1,0 +1,149 @@
+$primary: #ffffff;
+$secondary: #eeeeee;
+$gray: #cccccc;
+$dark: #656565;
+
+$xs: 8px;
+$sm: 20px;
+
+.navigation > nav {
+  background-color: $secondary;
+  padding: $sm 0;
+  border-radius: $sm;
+  margin-top: $sm;
+}
+
+@media (max-width: 767px) {
+  .navigation > nav {
+    padding: 0;
+  }
+}
+.navigation > nav > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .navigation > nav > ul {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+.navigation > nav > ul > li > a > img {
+  width: $sm;
+  margin: $xs $sm;
+}
+
+.main-content {
+  margin: $sm 0;
+}
+.main-content > address > span {
+  margin: $xs 0;
+  display: block;
+}
+
+.main-content > address > span > strong {
+  margin-right: $xs;
+}
+
+.main-content > div > h1 {
+  font-size: 2.2em;
+}
+.main-content > div > h2 {
+  font-size: 2.5em;
+}
+.main-content > .banner {
+  background-color: $secondary;
+  border-radius: $sm;
+  padding: $sm;
+}
+
+.features > ul {
+  list-style: disc;
+  margin: $sm 0;
+}
+
+.features > .row > div > li {
+  margin-bottom: $sm;
+}
+
+.board {
+  background-color: $dark;
+  border-radius: $sm;
+  padding: $xs $sm;
+  color: $secondary;
+}
+
+
+@media(max-width: 767px){
+  .board {
+    margin-bottom: $sm;
+  }
+}
+
+.board > .board-features > strong {
+  color: $primary;
+  display: block;
+}
+
+.board > .board-features > span > strong {
+  color: $primary;
+}
+
+.board > .board-features > p {
+  margin: $xs 0;
+}
+
+.aside-features {
+  background-color: $gray;
+  min-height: 100vh;
+  padding: $sm $xs;
+  border-radius: $sm;
+}
+
+.aside-features > figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: $sm;
+}
+
+.aside-features > figure > img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: $xs;
+}
+
+.aside-features > .row > ul {
+  margin-top: $sm;
+}
+.aside-features > .aside-skills > h5 {
+  text-align: center;
+  font-weight: bold;
+}
+.aside-features > .aside-skills > .row > ul > li {
+  margin-bottom: $sm;
+  text-align: center;
+}
+.aside-features > .aside-projects > h5 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.aside-features > .aside-projects > .board > .row {
+  padding: 0 $xs ;
+}
+
+.aside-features > .aside-projects > .board > .row > li {
+  margin: $xs 0;
+}
+
+.aside-features > .aside-projects > .board > .row > li > a {
+  display: block;
+  color: #7CC0DF;
+}
+/*# sourceMappingURL=styles.css.map */
+
+/*# sourceMappingURL=styles.scss.map */

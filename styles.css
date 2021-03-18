@@ -1,0 +1,147 @@
+.navigation > nav {
+  background-color: #eeeeee;
+  padding: 20px 0;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+  .navigation > nav {
+    padding: 0;
+  }
+}
+.navigation > nav > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .navigation > nav > ul {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+.navigation > nav > ul > li > a > img {
+  width: 20px;
+  margin: 8px 20px;
+}
+
+.main-content {
+  margin: 20px 0;
+}
+
+.main-content > address > span {
+  margin: 8px 0;
+  display: block;
+}
+
+.main-content > address > span > strong {
+  margin-right: 8px;
+}
+
+.main-content > div > h1 {
+  font-size: 2.2em;
+}
+
+.main-content > div > h2 {
+  font-size: 2.5em;
+}
+
+.main-content > .banner {
+  background-color: #eeeeee;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.features > ul {
+  list-style: disc;
+  margin: 20px 0;
+}
+
+.features > .row > div > li {
+  margin-bottom: 20px;
+}
+
+.board {
+  background-color: #656565;
+  border-radius: 20px;
+  padding: 8px 20px;
+  color: #eeeeee;
+}
+
+@media (max-width: 767px) {
+  .board {
+    margin-bottom: 20px;
+  }
+}
+.board > .board-features > strong {
+  color: #ffffff;
+  display: block;
+}
+
+.board > .board-features > span > strong {
+  color: #ffffff;
+}
+
+.board > .board-features > p {
+  margin: 8px 0;
+}
+
+.aside-features {
+  background-color: #cccccc;
+  min-height: 100vh;
+  padding: 20px 8px;
+  border-radius: 20px;
+}
+
+.aside-features > figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.aside-features > figure > img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 8px;
+}
+
+.aside-features > .row > ul {
+  margin-top: 20px;
+}
+
+.aside-features > .aside-skills > h5 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.aside-features > .aside-skills > .row > ul > li {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.aside-features > .aside-projects > h5 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.aside-features > .aside-projects > .board > .row {
+  padding: 0 8px;
+}
+
+.aside-features > .aside-projects > .board > .row > li {
+  margin: 8px 0;
+}
+
+.aside-features > .aside-projects > .board > .row > li > a {
+  display: block;
+  color: #7CC0DF;
+}
+
+/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=styles.scss.map */
+
+/*# sourceMappingURL=styles.css.map */
