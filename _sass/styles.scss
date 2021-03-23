@@ -97,8 +97,9 @@ $sm: 20px;
 
 .aside-features {
   background-color: $gray;
-  min-height: 100vh;
+  min-height: calc(100vh - 20px);
   padding: $sm $xs;
+  margin: $xs 0;
   border-radius: $sm;
 }
 
